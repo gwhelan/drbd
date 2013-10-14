@@ -20,7 +20,7 @@
 #prime the search to avoid 2 masters
 node.save unless Chef::Config[:solo]
 
-package "drbd8-utils" do
+package "drbd84-utils" do
   action :install
 end
 
